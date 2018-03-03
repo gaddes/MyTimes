@@ -1,0 +1,49 @@
+header {
+  /* CSS Properties */
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+
+  /* Flexbox Properties */
+  display: flex;
+  width: 100%;
+}
+
+header .logo-container {
+  /* CSS Properties */
+  background-color: lightblue;
+  color: MediumAquamarine;
+
+  /* Flexbox Properties */
+  display: flex;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+header .logo-item {
+  margin: 0px 10px;
+  white-space: nowrap; /* Prevent word wrap when browser is resized (made smaller). */
+}
+
+nav {
+  /* CSS Properties */
+  background-color: rebeccapurple;
+
+  /* Flexbox Properties */
+  display: flex;
+  width: inherit;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+}
+
+nav a {
+  /* CSS Properties */
+  color: black;
+  /* font-weight: bold; */
+
+  /* Flexbox Properties */
+  margin: 0px 10px;
+}
