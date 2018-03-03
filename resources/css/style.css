@@ -3,15 +3,18 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
 
   /* Flexbox Properties */
   display: flex;
   width: 100%;
+  position: fixed;
+  z-index: 10;
+  border-bottom: 1px solid black;
 }
 
 header .logo-container {
   /* CSS Properties */
-  background-color: lightblue;
   color: MediumAquamarine;
 
   /* Flexbox Properties */
@@ -29,7 +32,6 @@ header .logo-item {
 
 nav {
   /* CSS Properties */
-  background-color: rebeccapurple;
 
   /* Flexbox Properties */
   display: flex;
@@ -46,4 +48,32 @@ nav a {
 
   /* Flexbox Properties */
   margin: 0px 10px;
+}
+
+main {
+  /* CSS Properties */
+
+  /* Flexbox Properties */
+  display: flex;
+  position: relative;
+  top: 80px;
+  width: 100%;
+  border: 1px solid lightblue;
+}
+
+.column-large {
+  width: 630px;
+  border: 1px solid red;
+}
+
+.column-medium {
+  width: 300px;
+}
+
+.column-small {
+  width: 240px;
+}
+
+.box {
+  border: 1px solid green;
 }
