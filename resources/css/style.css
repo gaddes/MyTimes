@@ -86,8 +86,20 @@ p {
   border: 1px solid red;
 }
 
+.box_1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box_2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .box {
-  border: 1px solid green;
+  width: 300px;
+  min-height: 300px;
 }
 
 .story-ALL {
