@@ -94,20 +94,17 @@ h2.news-bites_heading {
 .column-large {
   width: 630px;
   margin-top: 30px;
-  border: 1px solid red;
 }
 
 .column-medium {
   width: 300px;
   margin-top: 30px;
-  border: 1px solid red;
 }
 
 .column-small {
   width: 240px;
   margin-top: 30px;
   margin-right: 30px;
-  border: 1px solid red;
 
   display: flex;
   flex-direction: column;
