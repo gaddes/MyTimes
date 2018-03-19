@@ -13,6 +13,38 @@ header {
   border-bottom: 1px solid black;
 }
 
+footer {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  bottom: 100px;
+
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
 header .logo-container {
   /* CSS Properties */
   color: MediumAquamarine;
@@ -30,7 +62,7 @@ header .logo-item {
   white-space: nowrap; /* Prevent word wrap when browser is resized (made smaller). */
 }
 
-nav {
+header nav {
   /* CSS Properties */
 
   /* Flexbox Properties */
